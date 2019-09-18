@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brotherhood</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="container-fluid header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="logo">
+          <img src="assets/logo/logo.png" alt="">
+        </div>
+        <div class="lang d-flex">
+          <div class="rus"><a href="#">Рус</a></div>
+          <div class="ukr"><a href="#">Укр</a></div>
+          <div class="eng"><a href="#">Eng</a></div>
+        </div>
+        <div class="basket">
+          <a href="#">Кошик: 27 товарiв</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Новини</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Магазин</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#dealers">Дилери</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Доставка</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Про Нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакти</a>
+        </li>
+  </nav>
+  <section id="tabs">
+    <script>
+      $(function() {
+        $("#myTab a").click(function(e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      });
+    </script>
+    <div class="container-fluid tabs">
+      <div class="row">
+        <div class="container">
+          <div class="row justify-content-center">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#panel1" class=" tact">Tactical</a></li>
+              <li><a href="#panel2" class="high">Higland</a></li>
+              <li><a href="#panel3" class="sim">Simple</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid tab-inner">
+      <div class="row tab--content">
+        <div class="container">
+          <div class="row">
+            <div class="tab-content">
+              <div id="panel1" class="tab-pane active in">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="container">
+                      <div class="row d-flex">
+                        <div class="text">
+                          <h3>Серія</h3>
+                          <h2>Tactical</h2>
+                          <ul>
+                            <li>
+                              <p><span>Власна розробка</span> українських військових,<br> що увібрала в себе <span>найкраще</span> з нині<br> можливого:</p>
+                            </li>
+                            <li>якість тканин і пошиву</li>
+                            <li>зручність крою</li>
+                            <li>функціональність у використанні</li>
+                          </ul>
+                          <a href="#"><span>Перейти до каталогу</span></a>
+                        </div>
+                        <div class="soldier">
+                          <img src="assets/img/soldier.png" alt="Soldier">
+                        </div>
+                        <div class="material">
+                          <img src="assets/img/material.png" alt="Material">
+                        </div>
+                        <div class="soldier_1">
+                          <img src="assets/img/soldier_1.png" alt="Soldier">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="panel2" class="tab-pane fade">
+                <div class="wrapper_bg">
+                  <div class="wrapper_bg_fon">
+                    <div class="container">
+                      <div class="row">
+
+                        <div class="soldier">
+                          <img src="assets/img/soldier.png" alt="Soldier">
+                        </div>
+                        <div class="material">
+                          <img src="assets/img/material.png" alt="Material">
+                        </div>
+                        <div class="text">
+                          <h3>Серія</h3>
+                          <h2>Highland</h2>
+                          <ul>
+                            <li>
+                              <p><span>Власна розробка</span> українських військових,<br> що увібрала в себе <span>найкраще</span> з нині<br> можливого:</p>
+                            </li>
+                            <li>якість тканин і пошиву</li>
+                            <li>зручність крою</li>
+                            <li>функціональність у використанні</li>
+                          </ul>
+                          <a href="#"><span>Перейти до каталогу</span></a>
+                        </div>
+                        <div class="soldier_1">
+                          <img src="assets/img/soldier_1.png" alt="Soldier">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="panel3" class="tab-pane fade">
+                <div class="wrapper_bg">
+                  <div class="wrapper_bg_fon">
+                    <div class="container">
+                      <div class="row">
+
+                        <div class="soldier">
+                          <img src="assets/img/soldier.png" alt="Soldier">
+                        </div>
+                        <div class="material">
+                          <img src="assets/img/material.png" alt="Material">
+                        </div>
+                        <div class="soldier_1">
+                          <img src="assets/img/soldier_1.png" alt="Soldier">
+                        </div>
+                        <div class="text">
+                          <h3>Серія</h3>
+                          <h2>Simple</h2>
+                          <ul>
+                            <li>
+                              <p><span>Власна розробка</span> українських військових,<br> що увібрала в себе <span>найкраще</span> з нині<br> можливого:</p>
+                            </li>
+                            <li>якість тканин і пошиву</li>
+                            <li>зручність крою</li>
+                            <li>функціональність у використанні</li>
+                          </ul>
+                          <a href="#"><span>Перейти до каталогу</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="carousel">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container">
+          <h2 class="carousel-title">Тканина</h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="item active">
+                  <div class="cordura justify-content-center">
+                    <h3>Тип тканини: <span>Кордура</span></h3>
+                    <p>Тканина кордура - нейлонова водонепроникна тканина з підвищеною стійкістю до будь механічних<br> впливів. PU просочення і особливе плетіння ниток забезпечують повну водоніпроніцаемость. Тканина<br> стійка до перепадів
+                      температур
+                      і впливу
+                      ультрафіолету.</p>
+                    <p><span>Переваги:</span> вологостійкість, вогнестійкість</p>
+                    <p><span>Доступні кольори:</span></p>
+                    <div class="img">
+                      <img src="assets/product/1.png" alt="">
+                      <img src="assets/product/2.png" alt="">
+                      <img src="assets/product/3.png" alt="">
+                      <img src="assets/product/4.png" alt="">
+                      <img src="assets/product/5.png" alt="">
+                      <img src="assets/product/6.png" alt="">
+                    </div>
+                    <a href="#"><span>Перейти до каталогу </span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cordura justify-content-center">
+                  <h3>Тип тканини: <span>Кордура</span></h3>
+                  <p>Тканина кордура - нейлонова водонепроникна тканина з підвищеною стійкістю до будь механічних<br> впливів. PU просочення і особливе плетіння ниток забезпечують повну водоніпроніцаемость. Тканина<br> стійка до перепадів температур
+                    і
+                    впливу
+                    ультрафіолету.</p>
+                  <p><span>Переваги:</span> вологостійкість, вогнестійкість</p>
+                  <p><span>Доступні кольори:</span></p>
+                  <div class="img">
+                    <img src="assets/product/1.png" alt="">
+                    <img src="assets/product/2.png" alt="">
+                    <img src="assets/product/3.png" alt="">
+                    <img src="assets/product/4.png" alt="">
+                    <img src="assets/product/5.png" alt="">
+                    <img src="assets/product/6.png" alt="">
+                  </div>
+                  <a href="#"><span>Перейти до каталогу </span></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cordura justify-content-center">
+                  <h3>Тип тканини: <span>Кордура</span></h3>
+                  <p>Тканина кордура - нейлонова водонепроникна тканина з підвищеною стійкістю до будь механічних<br> впливів. PU просочення і особливе плетіння ниток забезпечують повну водоніпроніцаемость. Тканина<br> стійка до перепадів температур
+                    і
+                    впливу
+                    ультрафіолету.</p>
+                  <p><span>Переваги:</span> вологостійкість, вогнестійкість</p>
+                  <p><span>Доступні кольори:</span></p>
+                  <div class="img">
+                    <img src="assets/product/1.png" alt="">
+                    <img src="assets/product/2.png" alt="">
+                    <img src="assets/product/3.png" alt="">
+                    <img src="assets/product/4.png" alt="">
+                    <img src="assets/product/5.png" alt="">
+                    <img src="assets/product/6.png" alt="">
+                  </div>
+                  <a href="#"><span>Перейти до каталогу </span></a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <img src="assets/sprite/left.png" alt="left">            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <img src="assets/sprite/right.png" alt="right">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <h2 class="how">Як ми працюємо</h2>
+      <div class="container">
+        <div class="row">
+        <div class="idea d-flex justify-content-between">
+          <h3 class="idea_number">1</h3>
+          <div class="idea_img">
+            <img src="assets/img/idea.png" alt="">
+          </div>
+          <ul class="idea_text">
+            <li>спочатку <span>Ідея</span></li>
+            <li>Усі моделі розробляються українськими військовими, тому моделі досконалі та зручні</li>
+            <li>Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</li>
+            <li>Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагодженому діалогу з реальними користувачами форми</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid create">
+      <div class="container d-flex justify-content-between">
+        <ul class="create_text">
+          <li>Потім <span>створення речі</span></li>
+          <li>Виробництво налагоджене на власних виробничих потужностях, а отже якість виробу контролюється нами особисто</li>
+          <li>Для зменшення помилок через людський фактор, всі процеси максимально автоматизовані</li>
+          <li>Кожен вироблений зразок гарантованно проходить контроль якості. Помилки виключені</li>
+        </ul>
+        <div class="create_img">
+          <img src="assets/img/create.png" alt="">
+        </div>
+        <h3 class="create_number">2</h3>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container d-flex justify-content-between">
+        <h3 class="test_number">3</h3>
+        <div class="test_img">
+          <img src="assets/img/test.png" alt="">
+        </div>
+        <ul class="test_text">
+          <li>І нарешті <span>Тестування</span></li>
+          <li>Одяг тестується як на полігонах, так і у реальних умовах АТО</li>
+          <li>Постійно збирається статистика відгуків та побажань</li>
+          <li>Всі доцільні відгуки користувачів нашої продукції завжди трансформуються у нові ідеї</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="dealers">
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="dealers--title">Наші дилери</h2>
+        <div class="">
+          <div class="container">
+            <div class="row dealers_location">
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+            <div class="dealers-list row">
+              <div class="part1"><a href="">Львів вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Чернівці вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Житомир вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Київ вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Вінниця вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Чернігів вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Черкаси вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Кіровоград вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Кривий Ріг вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Миколаїв вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+
+</div>
+<div class="part2">
+
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Херсон вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Кременчук вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Суми вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Полтава вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Дніпропетровськ вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Запоріжжя вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Луганьск вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Донецьк вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Маріупіль вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+              <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Харків вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+            </div>
+            <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.946247,36.3744393,17z/data=!3m1!4b1!4m5!3m4!1s0x41270b9220aa57b3:0x5c81c6265a745b57!8m2!3d49.946247!4d36.376628">Одеса вул. Бібліка, 15 тел. 8 800 123 12 12</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer id="info">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="footer_logo">
+            <img src="assets/logo/footer_logo.png" alt="Logo">
+          </div>
+          <ul class="adress">
+            <li>sales@brother-hood.com.ua</li>
+            <li>ст. м “Либідська”</li>
+            <li>м. Київ, вул. К. Малевича, 86 І</li>
+          </ul>
+          <ul class="callback">
+            <li>Замовити зворотнiй дзвiнок</li>
+            <li><a href="tel: +38 (050) 317-64-44">+38 (050) <span>317-64-44</span></a></li>
+            <li><a href="tel:+38 (067) 325-57-53">+38 (067) <span>325-57-53</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
